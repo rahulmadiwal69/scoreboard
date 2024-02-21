@@ -1,0 +1,46 @@
+*{
+    
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+}
+body{
+    position: relative;
+    margin-top: 50px;
+}
+
+.container{
+    position: absolute;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+button{
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+
+}
+.nos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+span{
+    width: 20px;
+    height: 30pxpx;
+    border-bottom:  2px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    
+}
